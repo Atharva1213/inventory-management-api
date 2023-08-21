@@ -1,0 +1,24 @@
+{
+  "name": "inventory-management-api",
+  "version": "1.0.0",
+  "description": "Work for out",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "author": "Atharva  lende",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.3",
+    "supertest": "^6.3.3"
+  }
+}
